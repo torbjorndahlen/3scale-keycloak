@@ -1,0 +1,41 @@
+{
+  "name": "3scale-keycloak",
+  "version": "1.0.0",
+  "description": "3scale keycloak integration",
+  "main": "application.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/torbjorndahlen/3scale-keycloak.git"
+  },
+  "keywords": [
+    "3scale",
+    "keycloak",
+    "sso"
+  ],
+  "author": "torbjorndahlen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/torbjorndahlen/3scale-keycloak/issues"
+  },
+  "homepage": "https://github.com/torbjorndahlen/3scale-keycloak#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-env": "^0.4.4",
+    "grunt-ng-constant": "^2.0.1",
+    "grunt-nodemon": "^0.4.2",
+    "grunt-concurrent": "latest"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "karma": "^1.7.1",
+    "keycloak-connect": "file:keycloak-connect-4.8.3.Final-redhat-00001.tgz"
+  }
+}

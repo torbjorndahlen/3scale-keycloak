@@ -1,0 +1,8 @@
+{
+  "realm": "3scale",
+  "bearer-only": true,
+  "auth-server-url": "https://secure-sso-keycloak.6923.rh-us-east-1.openshiftapps.com/auth",
+  "ssl-required": "none",
+  "resource": "nodejs",
+  "confidential-port": 0
+}
