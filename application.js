@@ -1,5 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var cors = require('cors');
 
 // create a new express server
 var app = express();
@@ -8,15 +9,6 @@ var app = express();
 var session = require('express-session');
 var Keycloak = require('keycloak-connect');
 var memoryStore = new session.MemoryStore();
-
-app.use(session({
-  secret: 'b06e7a82-e11e-4531-812b-01a0c3ebdf5c',
-  resave: false,
-  saveUninitialized: true,
-  store: memoryStore
-}));
-
-// keycloak
 var keycloak = new Keycloak({ store: memoryStore });
 app.use(keycloak.middleware());
 
