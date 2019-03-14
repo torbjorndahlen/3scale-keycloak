@@ -4,7 +4,8 @@
   "description": "3scale keycloak integration",
   "main": "application.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "node application.js"
   },
   "repository": {
     "type": "git",
