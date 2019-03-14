@@ -3,11 +3,15 @@ NodeJS app to test integration with 3scale and Keycloak
 
 # API
 
-## public [GET]
-
+## /api/public [GET]
 Unprotected endpoint.
 
 
-## protected [GET]
+## /api/protected [GET]
 Protected endpoint.
+
+If successful you should see
+
+GET /api/protected
+Authorization: Bearer eyJhbGciO
 
