@@ -36,6 +36,6 @@
     "express": "^4.16.4",
     "express-session": "^1.15.6",
     "karma": "^1.7.1",
-    "keycloak-connect": "file:keycloak-connect-4.8.3.Final-redhat-00001.tgz"
+    "keycloak-connect": "^5.0.0"
   }
 }

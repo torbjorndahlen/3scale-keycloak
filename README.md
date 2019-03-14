@@ -8,9 +8,9 @@ Unprotected endpoint.
 
 
 ## /api/protected [GET]
-Protected endpoint.
+Protected endpoint. Requires valid access token.
 
-If successful you should see
+If successful you should see in the log
 
 GET /api/protected
 Authorization: Bearer eyJhbGciO
